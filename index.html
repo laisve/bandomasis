@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Site</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ramaraja" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header-left">The Site</div>
+        <div id="header-right">
+            <div class="head-top">
+                <a href="#">menu link</a>
+                <a href="#">menu link</a>
+                <a href="#">menu link</a>
+            </div>
+            <div class="head-bottom">
+                <a href="#">menu link</a>
+                <a href="#">menu link</a>
+                <a href="#">menu link</a>
+                <a href="#">menu link</a>
+            </div>
+        </div>
+        <div class="collapse-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+    <div class="collapsable-menu hidden">
+        <div class="top-links">
+            <a href="#">menu link</a>
+            <a href="#">menu link</a>
+            <a href="#">menu link</a>
+        </div>
+        <ul class="bottom-links">
+            <button class="collapse-menu">menu link</button>
+            <div class="collapse-content hidden">
+                <a href="#">Integer eget mauris</a>
+                <a href="#">Pulvinar consectetur</a>
+                <a href="#">Oget mauris praesent</a>
+                <a href="#">Interdum justo</a>
+                <a href="#">Nec neque fringilla</a>
+            </div>
+            <li><a href="#">menu link</a></li>
+            <li><a href="#">menu link</a></li>
+            <li><a href="#">menu link</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div class="dropdown-menu">
+            <div class="triangle"></div>
+            <a href="#">Integer eget mauris</a>
+            <a href="#">Pulvinar consectetur</a>
+            <a href="#">Oget mauris praesent</a>
+            <a href="#">Interdum justo</a>
+            <a href="#">Nec neque fringilla</a>
+        </div>
+        <div id="texts">
+            <div id="text-part">
+                <article class="main-text">
+                    <h2 class="main-heading">
+                        Aenean ac diam nec neque fringilla
+                    </h2>
+                    <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem.  Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque. Sed condimentum turpis sit amet orci fringilla placerat sed et eros.</p>
+                    <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem.  Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque. Sed condimentum turpis sit amet orci fringilla placerat sed et eros.</p>
+                    <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem.  Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque. Sed condimentum turpis sit amet orci fringilla placerat sed et eros.</p>
+                    <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem.  Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque. Sed condimentum turpis sit amet orci fringilla placerat sed et eros.</p>
+                    <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem.  Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque. Sed condimentum turpis sit amet orci fringilla placerat sed et eros.</p>
+                </article>
+                <div id="lower-texts">
+                    <article class="lower-text" id="text-left">
+                        <p>Lorem ipsum dolor sit amet, at quo alii dicit pertinax, aperiri delicata ex qui, eius porro cotidieque eu eos. Ad simul noster aperiam nam, modo dico denique ei est, pro viris vitae placerat an. Cu pri malis saepe appellantur.</p>
+                    </article>
+                    <article class="lower-text" id="text-right">
+                        <h3 class="smaller-heading">Aenean ac diam nec neque</h3>
+                        <ul class="links-list">
+                            <li><a href="#">Integer eget mauris et urna</a></li>
+                            <li><a href="#">Pulvinar consectetur hendrerit</a></li>
+                            <li><a href="#">Oget mauris praeset</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <div id="form-part">
+                <h3 class="smaller-heading">Aenean ac diam nec neque fringilla</h3>
+                <div id="form-text">
+                    <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem. Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque. Sed condimentum turpis sit amet orci fringilla placerat sed et eros.</p>
+                </div>
+                <form>
+                    <p id="form-error"></p>
+                    <p>First name:</p>
+                    <input type="text" id="firstnm" name="firstname" placeholder="Enter your name">
+                    <p id="fillName"></p>
+                    <p>Last name:</p>
+                    <input type="text" id="lastnm" name="lastname" placeholder="Enter your last name">
+                    <p id="fillLastName"></p>
+                    <p>Message:</p>
+                    <textarea name="message" id="message" style="width: 100%;" rows="10"></textarea>
+                    <button type="submit" name="submit" onclick= "return validateForm();">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div id="bottom-text">
+            <article class="bottom-text-col">
+                <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem. Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque.</p>
+            </article>
+            <article class="bottom-text-col">
+                <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem. Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque.</p>
+            </article>
+            <article class="bottom-text-col">
+                <p>Suspendisse pretium tincidunt urna ac rutrum. Phasellus quis lorem vitae erat convallis luctus vel non tellus. Etiam eget velit at nibh interdum fringilla sit amet vitae lorem. Integer rhoncus libero rhoncus nibh aliquet, quis finibus urna scelerisque.</p>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-top">
+            <ul>
+                <li><a href="#">menu link</a></li>
+                <li><a href="#">menu link</a></li>
+                <li><a href="#">menu link</a></li>
+                <li><a href="#">menu link</a></li>
+                <li><a href="#">menu link</a></li>
+                <li><a href="#">menu link</a></li>
+            </ul>
+        </div>
+        <div id="footer-bottom">
+            <div id="footer-left">
+                Varius duis at consectetur lorem donec massa sapien faucibus. Enim ut sem viverra aliquet eget sit. Diam ut venenatis tellus in metus vulputate eu scelerisque. Malesuada bibendum arcu vitae elementum curabitur vitae. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. In iaculis nunc sed augue lacus. Malesuada bibendum arcu vitae elementum curabitur. Turpis egestas pretium aenean pharetra magna ac. Adipiscing diam donec adipiscing tristique risus nec feugiat.
+            </div>
+            <div id="footer-right">
+                The Site
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        function validateForm() {
+            var firstname = document.getElementById("firstnm");
+            var lastname = document.getElementById("lastnm");
+            var msg = document.getElementById("message");
+            var error = document.getElementById("form-error");
+            
+            if(firstname.value.length == 0) {
+                error.innerText = "Please enter your name";
+                firstname.focus();           
+                return false;
+            }
+            else if(lastname.value.length == 0) {
+                error.innerText = "Please enter your last name";
+                lastname.focus();
+                return false;
+            }
+            else if(msg.value.length == 0) {
+                error.innerText = "Please write something";
+                msg.focus();
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
